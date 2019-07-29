@@ -1,0 +1,30 @@
+/********************************
+* Medium Screen Styles
+* 750px viewport / 18px font = 41.67em
+********************************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	  
+	.page-footer {
+		margin-bottom: .5em;
+	}
+    
+.logo{
+    padding: 20px 200px ;
+}
+
+a:visited, a:link{
+    color: #fff;
+    text-decoration: none;
+}
+    
+.submitBtn {
+	-webkit-appearance: none;	
+	width: 40%;
+}
+
+    
+}

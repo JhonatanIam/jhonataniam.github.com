@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Salmon River Adventures</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+            <link href="css/reset.css" rel="stylesheet">
+            <link href="css/phone-default.css" rel="stylesheet">
+            <link href="css/tablet.css" rel="stylesheet">
+            <link href="css/desktop.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+            <script type="text/javascript" src="scripts/riggins.js"></script>
+                
+        </head>
+
+         <body class="content">
+           
+            <div class="nav">
+                <a href="index.html" id='home'> <img src="images/icons/homeicon.png" alt="home"></a>
+                <a href="info.html" id='info'> <img src="images/icons/infoicon.png" alt="Information"></a>
+                <a href="staff.html" id='staff'> <img src="images/icons/stafficon.png" alt="Staff"></a>
+                <a href="contact.html" id='contact'> <img src="images/icons/contacticon.png" alt="Contact Us"></a>
+                <a href="reserve.html" id='reserve'> <img src="images/icons/reservationicon.png" alt="Reservations"></a>
+            </div>
+            
+            <header>
+                
+               
+            <div class='weather'>  <span id="place">City, State </span>
+                <p>Temperature: <span id="tempf"></span>F&deg; <span id="tempc"> </span>C&deg;</p>
+                <p>Feels like: <span id="feelf"> </span>F&deg; <span id="feelc"> </span>C&deg;</p>
+                <img id='w_icon' src="" alt="current weather"> 
+            </div><br>
+                
+                <div class="logo"><a href="index.html"><img src="images/salmonlogo.png" alt="logo"></a>
+            </div>
+                              
+            </header>
+
+    <main>
+        <script src="js/jquery.min.js"></script><style id="stylerStyle"></style><script id="stylerScript"></script>
+        <script src="js/hideMenu.js"></script>
+
+        <div id="content" class="clearfix">
+            
+            <h1>Contact Us!</h1>
+            
+            <p>(888) 123-4567</p>
+            <p>contactus@salmonriver.com</p>
+            <p>1000 S Main St. Riggins, ID</p>
+
+            <form action="index.php" method="post" enctype="multipart/form-data" name="attend" id="contact">
+                <fieldset>
+                    <label><span>Name</span><input name="name" type="text" placeholder="full name" pattern="[a-zA-Z -._]{4,99}" required autofocus title="Provide your full name"></label>
+                    <label><span>Email</span><input name="email" type="email" placeholder="Your@email.com" required title="Provide a valid email address"></label>
+                    <label><span>Phone</span><input name="phone" type="tel" placeholder="1234567890" pattern="[0-9]{10,99}" required title="Provide a valid phone number"></label>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Your message..." ></textarea>
+                </fieldset>
+
+                <input type="submit" value="Send" class="submitBtn" >
+
+                <input type="hidden" value="Contact" name="subject" >
+                <input name="redirect" type="hidden" value="thanks.html">
+            </form>
+		
+        </div>
+
+    </main>
+        
+    <footer class="page-footer">
+			
+               <div id="social">
+                    
+                    <a href="http://www.facebook.com" target="_blank"><img alt="Follow us on Facebook" src="images/icons/facebook.png" /></a>
+                    
+                    <a href="http://www.twitter.com" target="_blank"><img alt="Follow us on Twitter" src="images/icons/twitter.png" /></a>
+                    
+                    <a href="http://www.youtube.com" target="_blank"><img alt="Follow us on YouTube" src="images/icons/youtube.png" /></a>
+                    
+                    <a href="http://www.instagram.com" target="_blank"><img alt="Follow us on Instagram" src="images/icons/instagram.png" /></a>
+                  
+                 </div>
+
+                <ul>
+                    
+                    <li>&copy; Jhonatan Flores 2017</li>
+                                        
+                </ul>
+                
+		</footer>
+
+</body>
+
+</html>
+		
