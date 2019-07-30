@@ -1,10 +1,6 @@
-/*
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-*/
-
+html {
+	backround-color: #0076B6;	
+}
 
 /*******************************
 * Page Header Styles
@@ -62,11 +58,6 @@ body {
 	width: 100%;
 	height: 100%
 }
-html {
-	backround-color: #0076B6;	
-}
-
-
 .content {
 	max-width: 700px;
     margin: auto;
