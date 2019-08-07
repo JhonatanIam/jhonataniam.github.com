@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto:100');
+
+/********************************
+* Main Content
+********************************/
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 960px;
+    margin: -104px auto;
+}
+
+main {
+    font-family: "Raleway";
+    font-size: 100%;
+    color: #000000;
+    text-align: center;
+    height: 700px;
+}
+
+.home {
+    background-image: url('image/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-image: url('image/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.portfolio {
+    background-image: url('image/portfolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.home-p {
+    font-family: 'raleway';
+    color: #000000;
+    font-size: 34px;
+    margin: -20px;
+}
+
+.about-content {
+    width: 100%;
+    height: 400px;
+    font-family: 'raleway';
+    color: #000000;
+    font-size: 20px;
+    background: rgba(250, 250, 250, 0.7);
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.me {
+    width: 200px;
+    height: 200px;
+}
+
+.about-p {
+    width: 450px;
+    text-align: left;
+}
+
+figure {
+    font-size: 20px;
+    background: rgba(250, 250, 250, 0.3);
+}
+
+.title {
+    text-align: center;
+    font-size: 75px;
+}
+
+.title-a {
+    text-align: center;
+    font-size: 75px;
+}
+
+.images {
+    background: rgba(250, 250, 250, 0.3);
+    font-family: 'raleway';
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+/*******************************
+* Navigation
+*******************************/
+
+.logo {
+    width: 97px;
+    position: relative;
+    z-index: 99;
+    left: 10%;
+    top: 104px;
+}
+
+.nav {
+    background-color: #000000;
+    height: 67px;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 100;
+}
+
+.nav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav a:hover {
+    background-color: #d60c0c;
+    color: #ffffff;
+}
+
+.nav a:active {
+    background-color: #3b69dd;
+    color: #ffffff;
+}
+
+/*******************************
+* Form
+*******************************/
+.contact {
+    background-image: url('image/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+form {
+    background: rgba(250, 250, 250, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 100%;
+    width: 600px;
+}
+
+input {
+    color: #000000;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 200px;
+}
+
+textarea {
+    color: #000000;
+    width: 300px;
+    height: 200px;
+    font-size: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.button {
+    -webkit-appearance: none;
+    color: #ffffff;
+    border-radius: 7px;
+    width: 150px;
+    font-size: 20px;
+    padding: 10px;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*******************************
+* Page Footer
+*******************************/
+
+.bot-nav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.bot-nav a:hover {
+    background-color: #d60c0c;
+    color: #ffffff;
+}
+
+.bot-nav a:active {
+    background-color: #3b69dd;
+    color: #ffffff;
+}
+
+.bottom {
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.social {
+    font-size: 17px;
+}
+
+/*******************************
+* Resume
+*******************************/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.container {
+    width: 960px;
+    display: flex;
+}
+
+.flags {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left {
+    width: 480px;
+}
+
+.right {
+    width: 480px;
+}
