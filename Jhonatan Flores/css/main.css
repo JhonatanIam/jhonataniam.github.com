@@ -25,7 +25,7 @@ main {
 }
 
 .about {
-    background-image: url('/image/about.jpg');
+    background-image: url('../image/about.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -34,7 +34,7 @@ main {
 }
 
 .portfolio {
-    background-image: url('/image/portfolio.jpg');
+    background-image: url('../image/portfolio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -142,7 +142,7 @@ figure {
 * Form
 *******************************/
 .contact {
-    background-image: url('/image/contact.jpg');
+    background-image: url('../image/contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
