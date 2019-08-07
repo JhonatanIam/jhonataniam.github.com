@@ -1,7 +1,3 @@
-html {
-	backround-color: #0076B6;	
-}
-
 /*******************************
 * Page Header Styles
 *******************************/
@@ -49,6 +45,11 @@ div.nav a {
 /********************************
 * Main Content Styles
 ********************************/
+
+html {
+	backround-color: #0076B6;	
+}
+
 body {
     display: flex;
 	flex-direction: column;
