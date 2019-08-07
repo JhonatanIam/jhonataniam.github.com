@@ -19,7 +19,7 @@ main {
 }
 
 .home {
-    background-image: url('/image/home.jpg');
+    background-image: url('../image/home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
