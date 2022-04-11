@@ -1,0 +1,29 @@
+<!-- Portfolio Section -->
+<div class="padding-64 content" id="portfolio">
+    <h2 class="text-light-grey">Portfolio</h2>
+    <hr style="width:200px" class="opacity">
+
+ <!-- Grid for photos -->
+    <div class="row-padding" style="margin:0 -16px">
+        <div class="third"><h2>Web Design</h2>
+            <a href="https://jhonataniam.github.io/CyberHawks"> <img src="images/CyberHawks.jpg" alt="CyberHawks Website" style="width:75%"></a><h5>CyberHawks Website</h5>
+            <a href="https://jhonataniam.github.io/Salmon%20River/"> <img src="images/4.jpg" alt="Salmon River" style="width:75%"></a><h5>Salmon River</h5>
+            <a href="https://jhonataniam.github.io/zen-garden/"> <img src="images/zengarden.jpg" alt="Zen-Garden" style="width:75%"></a><h5>Zen Garden</h5>
+            <a href="https://github.com/JhonatanIam/CIT-336-Back-End-Development/"> <img src="images/1.jpg" alt="Acme Store" style="width:75%"></a><h5>Acme Store</h5>
+        </div>
+
+        <div class="third"><h2>Grapic Design</h2>
+            <a href="https://www.behance.net/gallery/59220579/ART-230-Project-4-Web-Style-Guide"> <img src="images/5.jpg" alt="Style Guide" style="width:75%"></a><h5>Web Style Guide Project</h5>
+            <a href="https://www.behance.net/gallery/76435311/Symbols"> <img src="images/6.jpg" alt="Symbols" style="width:75%"></a><h5>Symbols Project</h5>
+            <a href="https://www.behance.net/gallery/68208435/COMM-130-Slide-Project"> <img src="images/7.jpg" alt="Ad Comparison" style="width:75%"></a><h5>Ad Comparison Project</h5>
+            <a href="https://www.behance.net/gallery/68207951/COMM-130-Creative-ad"> <img src="images/8.jpg" alt="Ad Project" style="width:75%"></a><h5>Ad Project</h5>
+        </div>
+        
+         <div class="third"><h2>UX/UI Design</h2>
+            <a href="https://www.behance.net/gallery/101969017/Adams-County-Information-Heavy-site-ART-337R"> <img src="images/AdamsIowa.jpg" alt="Adams County Website" style="width:75%"></a><h5>Website Project</h5>
+            <a href="https://www.behance.net/gallery/81234003/Calculator-app-design"> <img src="images/splitapp.jpg" alt="Calculator app" style="width:75%"></a><h5>Calculator app design</h5>
+        </div>
+        <!-- End photo grid -->
+    </div>
+    <!-- End Portfolio Section -->
+</div>
